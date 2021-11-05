@@ -20,5 +20,5 @@ def sock_merchant(n, ar):
 end = time.time()
 n = 18
 ar = [4, 5, 5, 5, 6, 6, 4, 1, 4, 4, 3, 6, 6, 3, 6, 1, 4, 5]
-print(sock_merchant(n, ar))
+print("Total pairs:", sock_merchant(n, ar))
 print("Run time of the function: ", end-start)
