@@ -20,3 +20,5 @@ class TestSockMerchant(unittest.TestCase):
         answer = sock_merchant(n, ar)
         expect_answer = 36
         self.assertEqual(answer, expect_answer)
+
+
